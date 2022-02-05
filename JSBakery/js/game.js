@@ -26,7 +26,7 @@ function sellLoaves() {
 
 function startBakery() {
 	// check if the interval is already set to prevent starting the bakery multiple tines
-	if (baking) {
+	if (typeof baking !== 'undefined') {
 		clearInterval(baking);
 	}
 	baking = setInterval(makeBread, bakerySpeed);

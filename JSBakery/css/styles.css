@@ -31,7 +31,9 @@ button {
   color: white;
   font-size: 0.8em;
   margin: 0.2rem;
+  padding: 0.2rem;
   border: none;
+
 }
 
 #shelf {
